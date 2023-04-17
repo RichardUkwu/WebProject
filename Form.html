@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Seastyle.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body> 
+    <div class="LoginBody">
+        <div class="LoginLeft">
+            <div class="LeftTop">
+                <a href="SeaBnB.html"><img src="Dumera-1.png" alt="logo"></a>
+            </div>
+
+            <div class="LeftBottom">
+                <h3>Create account</h3>
+                <form action="mailto:agwupuyerichard@gmail.com" method="post" enctype="text/plain">
+                    <label for="Email">Email</label>
+                    <input required class="FormInput" type="email" id="Email" placeholder="email@example.com">
+                    <label for="Password">Password</label>
+                    <input required class="FormInput" type="password" id="Password" placeholder="enter your password">
+                    <label for="Re-Password">Re-enter Password</label>
+                    <input required class="FormInput" type="password" id="Re-Password" placeholder="Re-enter your password">
+                    <label for="UserName">Username</label>
+                    <input required class="FormInput" type="text" id="UserName" placeholder="Username">
+                    <label for="Ref">Agent Referral code</label>
+                    <input class="FormInput" type="text" id="Ref" placeholder="Referral code(optional)">
+                    <input onclick="SignUp()" class="FormLogin" type="submit" value="Sign Up">
+                </form>
+                <p>Already have an account? <a href="LoginForm.html">Login</a></p>
+            </div>
+        </div>
+        <div class="LoginRight">
+            <img src="House19.jpg" alt="">
+        </div>
+    </div>
+    
+    
+</body>
+</html>
